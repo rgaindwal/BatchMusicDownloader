@@ -13,7 +13,6 @@ for line in file:
     songs.append(line)
 print (songs)   
 for name in songs:
-    
     name=name.replace("\n","")
     url="http://search.chiasenhac.vn/search.php?s="
     url=url+name+"&cat=music"    
